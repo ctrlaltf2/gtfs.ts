@@ -9,7 +9,7 @@ Currently all I care about are the features that Pittsburgh Regional Transit use
      * [x] agency
      * [x] calendar
      * [x] calendar_dates
-     * [ ] fare_attributes
+     * [x] fare_attributes
      * [ ] feed_info
      * [ ] routes
      * [ ] shapes
