@@ -10,7 +10,7 @@ export interface Agency {
 	 * @note primary key
 	 * @example "PRT"
 	 */
-	agency_id: string?;
+	agency_id?: string;
 
 	/**
 	 * Agency full name
@@ -38,7 +38,7 @@ export interface Agency {
 	 *
 	 * @example "en"
 	 */
-	agency_lang: string?:
+	agency_lang?: string:
 
 	/**
 	 * Agency phone number
@@ -46,18 +46,18 @@ export interface Agency {
 	 * @example "412-442-2000"
 	 * @example "503-238-RIDE"
 	 */
-	agency_phone: string?;
+	agency_phone?: string;
 
 	/**
 	 * Agency's fare URL, where riders may purchase tickets/pay fare
 	 *
 	 * @example "https://www.rideprt.org/fares-and-passes/fare-information"
 	 */
-	agency_fare_url: string?;
+	agency_fare_url?: string;
 
 	/**
 	 * Agency email leading to the Agency's customer support department
 	 *
 	 */
-	agency_email: string?;
+	agency_email?: string;
 };
