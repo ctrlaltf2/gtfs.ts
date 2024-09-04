@@ -7,6 +7,7 @@ export interface Agency {
 	 * used as foreign key in other types to link
 	 * back to this Agency instance.
 	 *
+	 * @note primary key
 	 * @example "PRT"
 	 */
 	agency_id: string?;
