@@ -3,7 +3,7 @@
  *
  * @ref https://gtfs.org/documentation/schedule/reference/#calendartxt
  */
-export interface CalendarInterval {
+export interface Calendar {
 	/**
 	 * Identifies a set of dates when service is available for one or more routes
 	 *
