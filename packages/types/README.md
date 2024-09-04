@@ -8,7 +8,7 @@ Currently all I care about are the features that Pittsburgh Regional Transit use
  * GTFS Schedule
      * [x] agency
      * [x] calendar
-     * [ ] calendar_dates
+     * [x] calendar_dates
      * [ ] fare_attributes
      * [ ] feed_info
      * [ ] routes
