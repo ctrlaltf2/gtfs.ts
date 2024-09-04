@@ -1,6 +1,6 @@
 export enum PaymentMethod {
-	WHILE_BOARDING = 0,
-	BEFORE_BOARDING
+	WhileBoarding = 0,
+	BeforeBoarding
 };
 
 /**

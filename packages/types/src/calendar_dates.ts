@@ -1,7 +1,7 @@
 
 export enum ExceptionType {
-	SERVICE_ADDED = 1,
-	SERVICE_REMOVED,
+	ServiceAdded = 1,
+	ServiceRemoved,
 };
 
 /**
