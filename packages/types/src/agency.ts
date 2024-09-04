@@ -38,7 +38,7 @@ export interface Agency {
 	 *
 	 * @example "en"
 	 */
-	agency_lang?: string:
+	agency_lang?: string;
 
 	/**
 	 * Agency phone number
