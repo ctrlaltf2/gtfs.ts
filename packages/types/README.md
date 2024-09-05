@@ -12,7 +12,7 @@ Currently all I care about are the features that Pittsburgh Regional Transit use
      * [x] fare_attributes
      * [x] feed_info
      * [x] routes
-     * [ ] shapes
+     * [x] shapes
      * [ ] stop_times
      * [ ] stops
      * [ ] trips
