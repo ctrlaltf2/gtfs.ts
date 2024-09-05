@@ -14,7 +14,7 @@ Currently all I care about are the features that Pittsburgh Regional Transit use
      * [x] routes
      * [x] shapes
      * [ ] stop_times
-     * [ ] stops
+     * [x] stops
      * [ ] trips
  * GTFS Real-Time:
      * To enumerate
