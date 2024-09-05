@@ -1,0 +1,26 @@
+{
+  "name": "@gtfs.ts/reader",
+  "version": "0.0.1",
+  "description": "Reader for GTFS and GTFS-rt files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ctrlaltf2/gtfs.ts.git"
+  },
+  "keywords": [
+    "gtfs",
+    "gtfs-rt"
+  ],
+  "author": "ctrlaltf2",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ctrlaltf2/gtfs.ts/issues"
+  },
+  "homepage": "https://github.com/ctrlaltf2/gtfs.ts#readme",
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
+}
