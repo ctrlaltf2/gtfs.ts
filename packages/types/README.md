@@ -1,4 +1,4 @@
-# @gtfs.ts/types
+# types
 Types from the GTFS data model, from both the schedule and real-time flavors.
 
 Reference: https://gtfs.org/documentation/schedule/reference and https://gtfs.org/documentation/realtime/reference/
