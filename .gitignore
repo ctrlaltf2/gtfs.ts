@@ -131,3 +131,4 @@ dist
 
 # nix & environment management
 .direnv
+dev/
