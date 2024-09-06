@@ -5,10 +5,10 @@ export interface GeoCoord {
   /**
    * Latitude, decimal degrees
    */
-  latitude: float;
+  latitude: number;
 
   /**
    * Longitude, decimal degrees
    */
-  longitude: float;
+  longitude: number;
 };
