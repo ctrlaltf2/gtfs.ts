@@ -1,0 +1,10 @@
+/// <reference path="agency.d.ts" />
+/// <reference path="calendar_dates.d.ts" />
+/// <reference path="calendar.d.ts" />
+/// <reference path="common.d.ts" />
+/// <reference path="fare_attributes.d.ts" />
+/// <reference path="feed_info.d.ts" />
+/// <reference path="routes.d.ts" />
+/// <reference path="shapes.d.ts" />
+/// <reference path="stops.d.ts" />
+/* /// <reference path="trips.d.ts" /> */
