@@ -4,7 +4,8 @@
   "description": "GTFS and GTFS-RT types",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npm run clean && tsc",
+    "clean": "rm -rf ./dist"
   },
   "repository": {
     "type": "git",
