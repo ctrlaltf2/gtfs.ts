@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/ctrlaltf2/gtfs.ts#readme",
   "devDependencies": {
+    "ts-proto": "^2.1.0",
     "typescript": "^5.5.4"
   }
 }
