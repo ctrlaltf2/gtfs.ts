@@ -1,3 +1,0 @@
-[submodule "packages/types/extern/transit"]
-	path = packages/types/extern/transit
-	url = https://github.com/google/transit/

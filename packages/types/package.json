@@ -4,7 +4,8 @@
   "description": "GTFS and GTFS-RT types",
   "main": "index.js",
   "scripts": {
-    "build": "npm run clean && tsc",
+    "build": "npm run clean && mkdir -p ./dist && npm run build:proto && tsc",
+    "build:proto": "protoc --plugin=./node_modules/.bin/protoc-gen-ts_proto --ts_proto_out=. ./src/gtfs-realtime.proto",
     "clean": "rm -rf ./dist"
   },
   "repository": {
@@ -21,8 +22,9 @@
     "url": "https://github.com/ctrlaltf2/gtfs.ts/issues"
   },
   "homepage": "https://github.com/ctrlaltf2/gtfs.ts#readme",
-  "devDependencies": {
-    "ts-proto": "^2.1.0",
+  "dependencies": {
+    "@bufbuild/protobuf": "^2.0.0",
+    "ts-proto": "^2.2.0",
     "typescript": "^5.5.4"
   }
 }

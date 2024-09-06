@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "target": "es2017",
-    "module": "commonjs",
+    "target": "es2016",
+    "module": "node16",
     "sourceMap": true,
     "outDir": "dist",
     "newLine": "lf",
@@ -29,15 +29,20 @@
     "skipLibCheck": true
   },
   "files": [
+    /*
     "src/agency.d.ts",
-    "src/calendar_dates.d.ts",
     "src/calendar.d.ts",
+    "src/calendar_dates.d.ts",
     "src/common.d.ts",
     "src/fare_attributes.d.ts",
     "src/feed_info.d.ts",
+    */
+    "src/gtfs-realtime.ts"
+    /*
     "src/index.d.ts",
     "src/routes.d.ts",
     "src/shapes.d.ts",
     "src/stops.d.ts",
+    */
   ]
 }
